@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+       <head>
+        <link rel="icon" type="image/jpg" href="wes.jpg">
+       <title>Project Sejarah</title>
+       <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #601a20;
+        }
+
+        /* Header */
+        .top-header {
+            background: #fcdb8f;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            position: relative; /* Tambahan supaya language switcher bisa nempel */
+        }
+
+        .left-section {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo {
+            width: 55px;
+            height: 55px;
+            border-radius: 5px;
+        }
+
+        .title {
+            margin: 0;
+            font-size: 18px;
+            color: #601a20;
+        }
+
+        .nav-inline {
+            display: flex;
+            gap: 25px;
+            padding: 12px 25px;
+            background: #601a20;
+            border-radius: 30px;
+        }
+
+        .nav-inline a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 15px;
+            padding: 10px;
+            transition: 0.5s;
+            }
+
+        .nav-inline a:hover {
+            background-color: #e7ab66;
+            transform: scale(1.05);
+        }
+
+        /* Image */
+        .center-image-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
+
+        .center-image-container img {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* Card */
+        .section-card {
+            background: #fcdb8f;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 16px;
+            text-align: center;
+            box-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
+        }
+
+        .section-card video {
+            width: 100%;
+            height: 350px;
+            border-radius: 12px;
+        }
+
+        .section-card h1 {
+            color: #601a20;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        .section-card .divider {
+            border: 0;
+            height: 3px;
+            background: #fcdb8f;
+            width: 25%;
+            margin: 15px auto 25px auto;
+            border-radius: 2px;
+        }
+
+        .section-card p {
+            color: #601a20;
+            margin-top: 20px;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+
+        /* Card */
+        .three-icon-column {
+            max-width: 900px;
+            margin: 40px auto;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .icon-box {
+            background: #fcdb8f;
+            padding: 25px;
+            border-radius: 16px;
+            color: #76212a;
+            text-align: justify;
+            line-height: 1.7;
+            font-size: 15px;
+        }
+
+        .icon-box h3 {
+            margin-top: 0;
+            color: #76212a;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .icon-box p {
+            margin-top: 10px;
+            white-space: pre-line;
+        }
+        
+        .bahasa {
+            position: absolute;
+            top: 1px;
+            right: 25vh;
+            background-color: #601a20;
+            padding: 10px 10px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+
+        .bahasa ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .bahasa ul li a {
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: bold;
+            padding: 6px 10px;
+            display: block;
+            transition: all 0.3s ease;
+            border-radius: 8px;
+        }
+
+        .bahasa ul li a:hover {
+            background-color: #e7ab66;
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        footer {
+            background: #fcdb8f;
+            color: #601a20;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <!-- Header -->
+    <header class="top-header">
+
+        <div class="left-section">
+            <img src="logoprof.jpeg" class="logo" alt="Logo">
+            <h1 class="title">Media Sejarah</h1>
+        </div>
+
+        <nav class="nav-inline">
+            <a href="/webproject (2).html">BERANDA</a>
+            <a href="/tentang.html">TENTANG</a>
+            <a href="/fakta.html">FAKTA UNIK</a>
+            <a href="/tentang_kami.html">TENTANG KAMI</a>
+        </nav>
+
+        
+        <div class="bahasa">
+            <ul>
+                <li><a href="/webproject (2).html">indonesia</a></li>
+                <li><a href="/HOMW.html">english</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <!-- Judul -->
+    <h1 style="padding:20px; text-align:center; color:#fcdb8f;">
+        Perjuangan Rakyat Samin
+    </h1>
+
+    <hr style="border:0; height:3px; background:#fcdb8f; width:35%; margin:20px auto;">
+
+    <!-- Img jedagjedug -->
+    <div class="center-image-container">
+        <img src="jedagjedug.jpg" alt="Gambar Tengah">
+    </div>
+
+
+    <!-- Card -->
+    <div class="section-card">
+
+        <h1>Perjuangan Samin</h1>
+
+        <hr class="divider">
+
+        <video controls>
+            <source src="vid-20251106-wa0037.mp4" type="video/mp4">
+        </video>
+
+        <p>
+            "Pada akhir abad ke-19, di tanah Blora, Jawa Tengah, lahir sebuah gerakan<br>
+            rakyat yang unik Gerakan Samin. Sebuah perlawanan<br>
+            terhadap penjajahan yang dilakukan tanpa kekerasan."
+        </p>
+
+    </div>
+
+
+    <!-- Card -->
+    <div class="three-icon-column">
+
+        <div class="icon-box">
+            <h3>Pendahuluan</h3>
+            <p>
+Sejarah perjuangan bangsa Indonesia penuh dengan kisah keberanian, pengorbanan, dan tekad yang kuat untuk melawan penjajahan. Namun, tidak semua perjuangan dilakukan dengan cara angkat senjata. Ada juga bentuk perlawanan yang dilakukan dengan cara damai, penuh kesabaran, dan berlandaskan nilai-nilai moral yang tinggi. Salah satu contoh nyata dari perjuangan semacam ini adalah gerakan yang dilakukan oleh rakyat Samin di Jawa Tengah, yang dikenal dengan sebutan Gerakan Samin atau Saminisme.<br>
+Gerakan Samin dipimpin oleh seorang tokoh sederhana namun sangat berpengaruh bernama Samin Surosentiko. Ia menentang penjajahan Belanda bukan dengan peperangan, melainkan dengan ajaran moral dan tindakan damai. Samin mengajarkan pengikutnya untuk tetap jujur, sederhana, dan menolak segala bentuk ketidakadilan yang dilakukan oleh pemerintah kolonial. Bagi Samin, kekuatan terbesar manusia bukan terletak pada senjata, tetapi pada hati nurani yang bersih dan keberanian untuk mempertahankan kebenaran.<br>
+Makalah ini akan membahas tentang perjuangan rakyat Samin melawan kolonial dengan cara anti-kekerasan, mulai dari latar belakang munculnya gerakan ini, kronologi peristiwa penting yang terjadi, dampak dari perjuangan tersebut, hingga upaya penyelesaian dan nilai-nilai yang bisa kita pelajari.
+            </p>
+        </div>
+
+        <div class="icon-box">
+            <h3>Nilai-nilai</h3>
+            <p>
+Ajaran Samin bukan hanya gerakan sosial, tetapi juga sistem nilai yang mendalam. Nilai utamanya antara lain: kejujuran (bener), kesetiaan (setya), kesederhanaan (prasaja), gotong royong, kemandirian, dan anti kekerasan (tentrem). Bagi rakyat Samin, melawan bukan berarti menghancurkan musuh, tetapi menegakkan martabat manusia dengan cara yang bermoral.
+            </p>
+        </div>
+
+        <div class="icon-box">
+            <h3>Dampak</h3>
+            <p>
+Perjuangan rakyat Samin memberikan dampak yang besar, baik bagi masyarakat pengikutnya, pemerintah kolonial Belanda, maupun bagi bangsa Indonesia secara keseluruhan.
+Bagi rakyat Samin sendiri, perjuangan mereka menumbuhkan rasa percaya diri, harga diri, dan semangat kemandirian. Mereka berani menolak ketidakadilan tanpa harus menggunakan kekerasan.
+
+Walaupun banyak yang dipenjara, diawasi, bahkan diperlakukan tidak adil oleh Belanda, mereka tetap teguh pada pendirian dan ajaran Saminisme.
+Bagi pemerintah kolonial Belanda, gerakan Samin merupakan tantangan besar. Mereka kesulitan menindak rakyat yang tidak melakukan kekerasan. Belanda terbiasa menghadapi pemberontakan bersenjata, tetapi kali ini mereka berhadapan dengan rakyat yang melawan dengan diam dan sabar. Hal ini membuat Belanda kehilangan wibawa di mata rakyat, karena kekuasaan mereka tidak mampu menaklukkan kekuatan moral rakyat kecil.
+
+Bagi bangsa Indonesia, gerakan Samin menjadi contoh bahwa perlawanan terhadap penjajahan bisa dilakukan dengan cara damai.
+Gerakan ini mengajarkan bahwa keberanian tidak harus diwujudkan dalam peperangan, melainkan juga dalam keteguhan hati untuk mempertahankan kebenaran. Ajaran ini sangat relevan dengan semangat perjuangan bangsa Indonesia yang menjunjung tinggi keadilan dan kedamaian.
+            </p>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+            <p>&copy; 2025 Media Sejarah | Kelompok 5 | gantengdantampan7361@gmail.com | Ihab Zaki Haibi | 0812-8214-8591</p>
+    </footer>
+
+</body>
+</html>
